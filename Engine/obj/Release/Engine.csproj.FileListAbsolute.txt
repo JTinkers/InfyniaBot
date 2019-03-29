@@ -1,0 +1,11 @@
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine.csprojAssemblyReference.cache
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine.csproj.CoreCompileInputs.cache
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\bin\Release\Engine.dll
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\bin\Release\Engine.pdb
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine.dll
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine.pdb
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Libraries\GUI\GUIWindow.g.cs
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine_MarkupCompile.cache
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine_MarkupCompile.lref
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Libraries\GUI\GUIWindow.baml
+C:\Users\jonku\Documents\Visual Studio 2017\Projects\FlyffBot\Engine\obj\Release\Engine.g.resources
