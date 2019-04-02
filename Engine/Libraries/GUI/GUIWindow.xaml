@@ -75,6 +75,6 @@
                 </StackPanel>
             </GroupBox>
         </Grid>
-        <RichTextBox IsReadOnly="True" x:Name="ConsoleGUI" Padding="10" Background="#FF333745" Foreground="#FFE63462" SelectionBrush="#FFC7EFCF" FontWeight="Bold"/>
+        <TextBox IsReadOnly="True" MaxLines="1000" x:Name="ConsoleGUI" Padding="10" Background="#FF333745" Foreground="#FFE63462" SelectionBrush="#FFC7EFCF" FontWeight="Bold"/>
     </Grid>
 </Window>

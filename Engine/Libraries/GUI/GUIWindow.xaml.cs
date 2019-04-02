@@ -66,8 +66,13 @@ namespace Engine.Libraries.GUI
 		public bool IsTextNumeric(string text) 
 			=> !pattern.IsMatch(text);
 
-		private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e) 
-			=> e.Handled = !IsTextNumeric(e.Text);
+		private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+		{
+			if (ConsoleGUI.LineCount > ConsoleGUI.MaxLines)
+				ConsoleGUI.Text = string.Empty;
+
+			e.Handled = !IsTextNumeric(e.Text);
+		}
 
 		private void Button_Click(object sender, RoutedEventArgs e) 
 			=> Core.IsBreakEnabled = !Core.IsBreakEnabled;

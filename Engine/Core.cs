@@ -291,7 +291,7 @@ namespace Engine
 				}
 
 				VecPos.X = Game.TargetObject.Position.X;
-				VecPos.Y = Game.TargetObject.Position.Y + 0.05f;
+				VecPos.Y = Game.TargetObject.Position.Y + 0.5f;
 				VecPos.Z = Game.TargetObject.Position.Z;
 
 				VecEnd.X = Game.LocalPlayer.Position.X;
@@ -313,7 +313,7 @@ namespace Engine
 			while (Game.TargetObject.Base != IntPtr.Zero && !IsBreakEnabled)
 			{
 				VecPos.X = Game.TargetObject.Position.X;
-				VecPos.Y = Game.TargetObject.Position.Y + 0.05f;
+				VecPos.Y = Game.TargetObject.Position.Y + 0.5f;
 				VecPos.Z = Game.TargetObject.Position.Z;
 
 				VecEnd.X = Game.LocalPlayer.Position.X;
@@ -328,7 +328,6 @@ namespace Engine
 					Entities.RemoveAt(0);
 				}
 
-				Console.WriteLine(Config.KeepDistance.ToString());
 				var distance = Vector3.DistanceSquared(VecEnd, VecPos);
 				if (Config.KeepDistance && distance < Config.PreferedDistance)
 				{
